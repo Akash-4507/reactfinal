@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) => 
-                `w-[13rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-black'}`
+                `w-[5rem] text-center cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-black'}`
               }
             >
               PROFILE
@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavLink
               to="/project"
               className={({ isActive }) => 
-                `w-[13rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-black'}`
+                `w-[10rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-black'}`
               }
             >
               PROJECT
