@@ -1,4 +1,4 @@
-import Pro from '../assets/img/akash.jpg';
+// import Pro from '../assets/img/akash.jpg';
 const Profile=()=>{
     return(
      <>
@@ -10,7 +10,7 @@ const Profile=()=>{
       </div>
       </div>
       <div className="w-2/5 h-[35rem] flex justify-center items-center bg-[#b4dae9] font-bold">
-      <img src={Pro} className="items-center " alt="AKASH" />
+      {/* <img src={Pro} className="items-center " alt="AKASH" /> */}
       </div>
       </div>
      </>
