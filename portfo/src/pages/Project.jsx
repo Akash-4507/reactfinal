@@ -1,7 +1,11 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 const Project=()=>{
     return(
-     <div>Contact</div>
+        <>
+        <Navbar />
+     <div>project</div>
+        </>
     )
 };
 export default Project;

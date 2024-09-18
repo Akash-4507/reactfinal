@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <>
@@ -10,9 +12,9 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex justify-around items-center bg-[#b4dae9] text-black">
             <div className="w-[13rem] text-center py-2 cursor-pointer">ABOUT</div>
-            <div className="w-[13rem] text-center py-2 cursor-pointer">PROFILE</div>
-            <div className="w-[13rem] text-center py-2 cursor-pointer">PROJECT</div>
-            <div className="w-[5rem] text-center py-2 cursor-pointer">CONTACT</div>
+            <Link to={'/'}><div className="w-[13rem] text-center py-2 cursor-pointer">PROFILE</div></Link>
+            <Link to={'/project'}><div className="w-[13rem] text-center py-2 cursor-pointer">PROJECT</div></Link>
+            <Link to={'/contact'}><div className="w-[5rem] text-center py-2 cursor-pointer">CONTACT</div></Link>
           </div>
         </div>
       </div>
