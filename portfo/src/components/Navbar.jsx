@@ -16,9 +16,7 @@ const Navbar = () => {
           <div className="flex-1 flex justify-around items-center bg-[#b4dae9] text-black">
             
             {/* About Section */}
-            <div className="w-[13rem] text-center py-2 cursor-pointer">
-              ABOUT
-            </div>
+           
 
             {/* NavLink to Profile */}
             <NavLink
@@ -48,6 +46,15 @@ const Navbar = () => {
               }
             >
               CONTACT
+            </NavLink>
+
+            <NavLink
+              to="/login"
+              className={({ isActive }) => 
+                `w-[5rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-black'}`
+              }
+            >
+             Login
             </NavLink>
 
           </div>
