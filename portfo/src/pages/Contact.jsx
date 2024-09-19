@@ -23,11 +23,17 @@ const Contact=()=>{
                 </>
             )
         }
+        {
+            !visible &&(
+                <>
         <div className="h-[80vh] w-screen flex justify-center items-center z-10">
-            <button onClick={()=> Setvisible(true)} className="bg-[#b4dae9] p-3 text-white rounded-md">Click me</button>
+            <button onClick={()=> Setvisible(true)} className="bg-green-300 p-3 text-white rounded-md">Click me</button>
         </div>
 
         </>
+        )
+        }
+            </>
     )
 };
 export default Contact;

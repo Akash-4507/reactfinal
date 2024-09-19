@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import Navbar from '../components/Navbar';
 
 const Login = () => {
     // const [userdata,setUserdata] = useState(
@@ -24,6 +25,7 @@ const Login = () => {
 
   return (
     <>
+    <Navbar />
     <div className="h-screen w-screen bg-white flex flex-col justify-center items-center">
                  <div className="w-[40%] h-[50%] flex flex-row justify-center items-center">
                                     <form  onSubmit={handleLogin} className="  w-[80%] h-[80%] flex flex-col justify-center items-center gap-4" >
