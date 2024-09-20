@@ -4,7 +4,9 @@ const Project=()=>{
     return(
         <>
         <Navbar />
-     <div>project</div>
+        <div className="w-[100rem] h-[100rem] bg-[#080b40] flex flex-col">
+            HI
+</div>
         </>
     )
 };
