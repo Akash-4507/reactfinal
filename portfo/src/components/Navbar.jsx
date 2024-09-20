@@ -8,12 +8,12 @@ const Navbar = () => {
         <div className="w-full h-24 flex flex-row bg-gray-600 font-bold border-b-2 border-black">
 
           {/* Branding Section */}
-          <div className="w-[50rem] h-full flex justify-center items-center bg-[#b4dae9] text-black px-4">
+          <div className="w-[50rem] h-full flex justify-center items-center bg-[#d0d5d7] text-black px-4">
             <div className="text-3xl">AKASH</div>
           </div>
 
           {/* Navigation Links */}
-          <div className="flex-1 flex justify-around items-center bg-[#b4dae9] text-black">
+          <div className="flex-1 flex justify-around items-center bg-[#d0d5d7] text-black">
             
             {/* About Section */}
            
