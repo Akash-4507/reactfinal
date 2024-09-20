@@ -8,12 +8,12 @@ const Navbar = () => {
         <div className="w-full h-24 flex flex-row bg-gray-600 font-bold border-b-2 border-black">
 
           {/* Branding Section */}
-          <div className="w-[50rem] h-full flex justify-center items-center bg-[rgb(20,73,94)] text-indigo-50 px-4">
+          <div className="w-[50rem] h-full flex justify-center items-start bg-[rgb(20,73,94)] text-indigo-50 px-4">
             <div className="text-3xl">AKASH</div>
           </div>
 
           {/* Navigation Links */}
-          <div className="flex-1 flex justify-around items-center bg-[rgb(20,73,94)] text-stone-400">
+          <div className="flex-1 flex justify-around items-start bg-[rgb(20,73,94)] text-stone-400">
             
             {/* About Section */}
            
@@ -22,7 +22,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) => 
-                `w-[5rem] text-center cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
+                `w-[5rem] text-center items-start cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
               }
             >
               PROFILE
@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavLink
               to="/project"
               className={({ isActive }) => 
-                `w-[10rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
+                `w-[10rem] text-center py-2 items-start cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
               }
             >
               PROJECT
@@ -42,7 +42,7 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               className={({ isActive }) => 
-                `w-[5rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
+                `w-[5rem] text-center py-2 items-start cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400'}`
               }
             >
               CONTACT
@@ -51,7 +51,7 @@ const Navbar = () => {
             <NavLink
               to="/login"
               className={({ isActive }) => 
-                `w-[5rem] text-center py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400 '}`
+                `w-[5rem] text-center items-start py-2 cursor-pointer transition-colors duration-300 ${isActive ? 'font-bold text-white' : 'text-stone-400 '}`
               }
             >
              Login
