@@ -13,8 +13,8 @@ const Contact = () => {
                 </div>
             </div>
             <div className="w-full h-[60vh] flex flex-row border-r-2 border-[#f8f8f8]">
-                <div className="w-[50%] h-[100%] bg-[#080b40] flex flex-row justify-center items-center px-2 border-r-2">
-                  
+                <div className="w-[50%] h-[100%] text-white bg-[#080b40] flex flex-row justify-center items-center px-2 border-r-2">
+                  AKASH
                 </div>
                 <div className="w-[50%] h-[100%] bg-[#080b40] flex flex-row justify-center items-center py-10">
                 <div className="h-[100%] w-[100%] bg-[#080b40] flex flex-col justify-center items-center">
