@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       
-        <div className="w-full h-20 flex flex-row border-b-2 border-[#f8f8f8]">
+        <div className="w-full h-20 flex flex-row border-b-2 border-[#d1d1d1]">
 
           {/* Branding Section */}
           <div className="w-[40rem] h-full flex justify-center items-center bg-[#080b40] text-indigo-50 px-4">

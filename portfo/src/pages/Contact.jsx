@@ -7,14 +7,17 @@ const Contact = () => {
     return (
         <>
             <Navbar />
-            <div className="w-full h-[13rem] bg-[#080b40] text-[#f8f8f8] flex flex-col justify-center items-center py-2 border-b-2">
+            <div className="w-full h-[11rem] bg-[#080b40] text-[#f8f8f8] flex flex-col justify-center items-center py-2 border-b-2 border-[#d1d1d1]">
                 <div className="w-[40%] h-[12rem] flex justify-end items-center text-white text-xl ">
                     Feel free to reach out! Whether you have a project in mind, a question, or just want to connect, I'd love to hear from you. Fill out the form below or reach me directly via email, or you can connect with me via the available social platforms below.
                 </div>
             </div>
-            <div className="w-full h-[60vh] flex flex-row border-r-2 border-[#f8f8f8]">
-                <div className="w-[50%] h-[100%] text-white bg-[#080b40] flex flex-row justify-center items-center px-2 border-r-2">
-                  AKASH
+            <div className="w-full h-[70vh] flex flex-row border-r-2 border-[#d1d1d1]">
+                <div className="w-[50%] h-[100%] text-white bg-[#080b40] flex flex-col justify-center items-center px-2 border-r-2 py-4">
+                 <div className=" w-[100%] h-[12%] gap-2 flex text-2xl pl-6 justify-center items-center">Getting in touch is Easy!!</div>
+                 <div className="w-[80%] h-[10%] text-md flex gap-3 justify-center items-start">l&t bypass road,chinniyampalayam,coimbatore-62</div>
+                 <div className="w-[80%] h-[8%] text-md flex gap-2 justify-center items-start">+91 9384547684</div>
+                 <div className="w-[80%] h-[50%] text-md flex gap-2 items-center justify-center">akashanand9790@gmail.com</div>
                 </div>
                 <div className="w-[50%] h-[100%] bg-[#080b40] flex flex-row justify-center items-center py-10">
                 <div className="h-[100%] w-[100%] bg-[#080b40] flex flex-col justify-center items-center">
