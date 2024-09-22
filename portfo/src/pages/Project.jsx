@@ -1,9 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Addcomp from "../components/Addcomp";
 import Projectcard from "../components/Projectcard";
+import { getProjects } from '../services/Api';
+
+
 const Project=()=>{
     const [projectData,setProjectdata]=useState(null)
+
     const fetchdata=async()=>
     {
         try{
@@ -21,6 +25,7 @@ console.log(projectData)
     {
         fetchdata();
     },[])
+    
     return(
         <>
         <Navbar />
@@ -29,11 +34,14 @@ console.log(projectData)
         <Addcomp />
         </div>
         {
-            projectData.map((data,index)=> 
-            (
-                <Projectcard title={data.title} desc={data.desc} pid={index} key={index} cover={data.cover} id={data.id} />
-            ))
-        }
+                    projectData ? (
+                        projectData.map((data, index) => (
+                            <Projectcard  title={data.title} desc={data.desc}  pid={index} key={index} cover={data.cover}  id={data.id} />
+                        ))
+                    ) : (
+                        <p>Loading...</p> // Optional loading state
+                    )
+                }
         </div>
         </>
     )

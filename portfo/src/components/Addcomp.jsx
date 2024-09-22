@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { addProject } from '../services/Api'
 import { useState } from 'react'
 import Navbar from './Navbar'
 
@@ -18,9 +19,21 @@ const Addcomp = () => {
         link:linkref.current.value,
         cover:coverref.current.value // Corrected the typo
        }
+       try {
+        const response = await addProject(projectdata)
+        console.log(response.status)
+        if (response.status === 201) {
+            console.log("added")
+
+        }
+    } catch (error) {
+        console.warn(error)
+
+    }
        console.log(projectData);
        setVisible(false)
     }
+
 
   return (
     <>

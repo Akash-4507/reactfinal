@@ -1,6 +1,25 @@
 import React from 'react'
+import { Pencil, Trash } from 'lucide-react'
+import {deleteProject} from '../services/Api'
 
-const Projectcard = () => {
+const Projectcard = ({title,desc,pid,cover,id}) => {
+
+    const handledelete=async()=>
+    {
+        try{
+            const res=await deleteProject(id)
+            console.log(res);
+            if(res.status===200)
+            {
+                console.log("project deleted successfully");
+            }
+        }
+        catch(error)
+        {
+            console.warn(error);
+        }
+    }
+
   return (
     <>
     <div className="service-card w-[300px] h-[300px] shadow-xl cursor-pointer snap-start shrink-0 bg-white flex flex-col items-start gap-3 transition-all duration-300 group hover:bg-[#202127]">
