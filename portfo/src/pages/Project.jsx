@@ -11,7 +11,7 @@ const Project=()=>{
     const fetchdata=async()=>
     {
         try{
-            const {data}=await getprojects();
+            const {data}=await getProjects();
             setProjectdata(data)
         }
         catch(error)
