@@ -31,10 +31,10 @@ const Contact = () => {
             <a href="https://www.linkedin.com/home?originalSubdomain=in" target="_blank" className="text-white hover:text-gray-400">
                 <FontAwesomeIcon icon={faLinkedin}  size="2xl"/>
             </a>
-            <a href="https://github.com/yourusername" target="_blank" className="text-white hover:text-gray-400">
+            <a href="https://github.com/Akash-4507" target="_blank" className="text-white hover:text-gray-400">
                 <FontAwesomeIcon icon={faGithub} size="2xl"/>
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" className="text-white hover:text-gray-400">
+            <a href="https://twitter.com/AKASHANAND4507" target="_blank" className="text-white hover:text-gray-400">
                 <FontAwesomeIcon icon={faTwitter} size="2xl"/>
             </a>
         </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                   <input type="text" placeholder="Enter your Name" className="w-[100%] justify-start items-center p-2" />
                   <input type="email" placeholder="Enter your Email" className="w-[100%] justify-start items-center p-2" />
                   <textarea type="text" placeholder="Enter the description" className="w-[100%] justify-start items-center p-2 "/> 
-                  <button className="items-center justify-center bg-slate-300 w-1/6 ">SUBMIT</button>
+                  <button className="items-center justify-center bg-slate-300 w-2/6 ">SEND A MSG</button>
                   </div>
                  </div>
                 </div> 
