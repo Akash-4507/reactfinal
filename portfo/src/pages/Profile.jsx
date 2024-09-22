@@ -1,28 +1,43 @@
 import Navbar from "../components/Navbar";
 import akpic from "../assets/img/akpro.jpg";
 
-
-// import Pro from '../assets/img/akash.jpg';
-const Profile=()=>{
-    return(
-     <>
-     <Navbar />
-     <div className="w-full h-[33rem] flex flex-row justify-center items-center ">
-      <div className="w-5/5 h-[33rem] bg-[#f8f8f8] flex flex-col justify-center items-center border-b-2 border-black pt-6">
-       <div className="w-[100rem] h-[25rem] bg-[#f8f8f8] text-black flex flex-col justify-center items-center font-bold rounded-md ">
-        <img src={akpic} alt="akash" className=" justify-center items-center rounded-full"/>
-       </div>
-       <div className="w-[50rem] h-[8rem] bg-[#f8f8f8] text-black flex flex-col justify-center items-center text-4xl font-bold rounded-md pt-8">
-        HI, I AM AKASH!
+const Profile = () => {
+  return (
+    <>
+      <Navbar />
+      <div className="w-full h-auto flex flex-col justify-center items-center bg-[#f8f8f8] pt-10">
+        {/* Profile Picture Section */}
+        <div className="w-full flex justify-center items-center mb-6">
+          <div className="w-[20rem] h-[20rem] flex justify-center items-center">
+            <img
+              src={akpic}
+              alt="Akash"
+              className="w-[18rem] h-[18rem] object-cover rounded-full border-4 border-black"
+            />
+          </div>
         </div>
-      <div className="w-[65rem] h-[35rem] bg-[#f8f8f8] text-zinc-900 font-bold flex flex-col justify-center items-center rounded-md text-lg pt-11">
-      I'm currently pursuing Third-year IT student and proficient in the MERN stack and Spring framework, with a strong focus on data structures and algorithms. Demonstrates a commitment to mastering key technologies and enhancing problem-solving skills. Eager to apply knowledge and drive innovation in a dynamic software development environment.
+
+        {/* Name Section */}
+        <div className="w-full text-center mb-4">
+          <h1 className="text-5xl font-bold text-zinc-900">
+            HI, I AM AKASH!
+          </h1>
+        </div>
+
+        {/* Bio Section */}
+        <div className="w-[60%] text-center text-xl font-medium leading-relaxed text-zinc-700">
+          <p>
+            I'm currently pursuing my third year as an IT student, and I'm
+            proficient in the MERN stack and Spring framework. With a strong
+            focus on data structures and algorithms, I demonstrate a commitment
+            to mastering key technologies and enhancing problem-solving skills.
+            Eager to apply my knowledge and drive innovation in a dynamic
+            software development environment.
+          </p>
+        </div>
       </div>
-      </div>
-      
-      </div>
-    
-     </>
-    );
-}
+    </>
+  );
+};
+
 export default Profile;

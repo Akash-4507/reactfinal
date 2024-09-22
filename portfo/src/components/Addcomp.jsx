@@ -42,7 +42,7 @@ const Addcomp = () => {
         {
             visible && (
                 <>
-                   <div className="h-screen w-screen absolute top-5 left-0 right-0 flex  justify-center items-center  bg-[#080b40] ">
+                   <div className="h-screen w-screen absolute top-5 left-0 right-0 flex  justify-center items-center  bg-white ">
 
                    <div className="w-[30%] h-[50%] flex flex-col  items-center  bg-white text-[#080b40]  ">
                     <div className="w-full h-[12%] flex justify-center items-start text-[#080b40] text-4xl font-bold border-b-2 border-[#080b40]">
