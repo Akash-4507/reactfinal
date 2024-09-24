@@ -1,15 +1,9 @@
 import Navbar from "../components/Navbar";
 import akpic from "../assets/img/akpro.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faReact,
-  faNodeJs,
-  faHtml5,
-  faCss3Alt,
-  faJava,
-} from "@fortawesome/free-brands-svg-icons";
+import {faReact,faNodeJs,faHtml5,faCss3Alt, faJava,} from "@fortawesome/free-brands-svg-icons";
 import { faGit, faAws, faCuttlefish } from '@fortawesome/free-brands-svg-icons';
-import { faLeaf } from "@fortawesome/free-solid-svg-icons"; // MongoDB
+import { faLeaf } from "@fortawesome/free-solid-svg-icons"; 
 
 const Profile = () => {
   return (
@@ -40,7 +34,7 @@ const Profile = () => {
             software development environment.
           </p>
         </div>
-        <div className="flex justify-center space-x-10 text-4xl text-gray-900">
+        <div className="flex justify-center space-x-10 text-4xl text-gray-900 gap-2">
           <FontAwesomeIcon icon={faLeaf} size="2x" title="MongoDB" className="text-green-500" />
           <FontAwesomeIcon icon={faReact} size="2x" title="React" className="text-indigo-800" />
           <FontAwesomeIcon icon={faNodeJs} size="2x" title="Node.js" className="text-green-500" />

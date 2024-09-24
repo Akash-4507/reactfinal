@@ -29,8 +29,6 @@ const Project = () => {
             <Addcomp />
           </button>
         </div>
-
-        {/* Project Cards */}
         <div className="w-[90%] flex flex-wrap justify-center gap-8">
           {projectData ? (
             projectData.map((data, index) => (

@@ -16,7 +16,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="w-full h-[70vh] flex flex-row border-r-2 border-[#d1d1d1]">
-                <div className="w-[50%] h-[100%] text-white bg-[#080b40] flex flex-col justify-center items-center px-2 border-r-2 py-4">
+                <div className="w-[60%] h-[100%] text-white bg-[#080b40] flex flex-col justify-center items-center px-2 border-r-2 py-4">
                  <div className=" w-[100%] h-[12%] gap-2 flex text-2xl pl-6 justify-center items-center">Getting in touch is Easy!!</div>
                  <div className="w-[80%] h-[10%] text-md flex gap-3 justify-center items-start">l&t bypass road,chinniyampalayam,coimbatore-62</div>
                  <div className="w-[80%] h-[8%] text-md flex gap-2 justify-center items-start">+91 9384547684</div>
@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
 
                 </div>
-                <div className="w-[50%] h-[100%] bg-[#080b40] flex flex-row justify-center items-center py-10">
+                <div className="w-[40%] h-[100%] bg-[#080b40] flex flex-row justify-center items-center py-10">
                 <div className="h-[100%] w-[100%] bg-[#080b40] flex flex-col justify-center items-center">
                  <div className="h-[100%] w-[100%] bg-[#080b40]  flex flex-col justify-center gap-2 items-center">
                   <div className=" h-[100%] w-[80%] bg-[#080b40] flex flex-col justify-start items-center gap-8 p-2">
